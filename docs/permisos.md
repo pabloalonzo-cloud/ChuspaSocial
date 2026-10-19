@@ -22,10 +22,12 @@ Capacidades del plugin `local_chuspasocial` y qué rol puede ejercerlas.
 | `local/chuspasocial:report` | Sistema |
 | `local/chuspasocial:postannouncement` | Curso |
 | `local/chuspasocial:view` | Sistema |
-| `local/chuspasocial:comment` | Por definir |
-| `local/chuspasocial:createlisting` | Por definir |
-| `local/chuspasocial:follow` | Por definir |
-| `local/chuspasocial:moderate` | Por definir |
-| `local/chuspasocial:post` | Por definir |
-| `local/chuspasocial:react` | Por definir |
-| `local/chuspasocial:viewmarketplace` | Por definir |
+| `local/chuspasocial:comment` | No definido |
+| `local/chuspasocial:createlisting` | No definido |
+| `local/chuspasocial:follow` | No definido |
+| `local/chuspasocial:moderate` | No definido |
+| `local/chuspasocial:post` | No definido |
+| `local/chuspasocial:react` | No definido |
+| `local/chuspasocial:viewmarketplace` | No definido |
+
+> Solo `report`, `postannouncement` y `view` están definidas en `src/db/access.php`. Para las demás capacidades no hay roles ni contexto definidos, por lo que se marcan como "No definido" sin inferir permisos.
